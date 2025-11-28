@@ -1,6 +1,46 @@
 # Keno Game
 
-This program allows the player to play a simplified version of the lottery game Keno! 
+### <ins>Project Summary
+This program allows the player to play a simplified version of the lottery game Keno! The program was created using JavaFX and includes 3 GUI screens that update as the player progresses through the game. The first screen is the Welcome Screen. Here the player can view the welcome screen. This screen changes depending on what menu button is clicked. The screen switches between depicting the welcome information, the rules, or the odds of winning information depending on what menu button was clicked. The next screen is the actual Game Screen. In the screen, the player is able to make all of choices. The last screen is the Drawing Screen. Here, the player is able to see the drawing information.
+
+### <ins>How to Run
+Before running the code, you must have an IDE installed. Some options include Eclipse and IntelliJ. I developed the program using Eclipse, which is the IDE I will be explaining how to use to run the code. 
+
+Download Eclipse: [Click here!](https://www.eclipse.org/downloads/)
+
+Download IntelliJ: [Click here!](https://www.jetbrains.com/idea/download/?section=windows)
+
+You will also need Apache Maven: [Click here!](https://maven.apache.org/download.cgi)
+
+> [!IMPORTANT]
+> Apache Maven is required to run the program, without it, you will not be able to run it (some IDEs may come with Maven already installed).
+
+Now onto running the program. There are two different ways to run the program:
+
+1. Run Configuration<br/>
+- First click "Run" on the top menu.
+- Then click on "Run Configurations..."
+- Create a new Maven Build.
+- Name the run configuration whatever you would like.
+- For the base directory, click the "Workspace" button, choose the Keno Game project, and click "OK."
+- In the "Goals:" section, type in: 
+```
+comple exec:java
+```
+- Now you can click the "Run" button to run the program
+
+2. Terminal
+- Under the top menu, click the terminal button (the sixth button from the very left).
+- Choose the "Local Terminal" and click "OK."
+- Now cd into the directory that the project is in on your device.
+- Enter the following command in the terminal to run the program:
+```
+mvn comple exec:java
+```
+
+
+> [!TIP]
+> I recommend creating a Run Configuration if you will be running the program multiple times!
 
 ### <ins>Keno Description</ins>
 Keno is a simple lottery game that allows the player to win cash prizes. The player chooses the amount of spots they would like to choose. Spots are the numbers that will be used to be matched to 20 randomized numbers. The player is also able to choose the number of drawings they would like to play. This is the amount of times that 20 randomized numbers will be matched against their spots. After choosing the number of spots and drawings, the player should choose their spots or allow them to be randomized. Once chosen, 20 random numbers will be drawn and compared to the player's spots. Depending on the amount of matches that are made, the player will get their cash prizes.
@@ -15,5 +55,5 @@ Now onto the actual game! On the game screen, the player can see buttons to choo
 Upon clicking the start button, the player is moved to the drawing screen. Here they are able to see each of the 20 numbers being drawing. Each number is drawn a second apart, allowing the player to visualize 
 the payouts for the amount of matches possible while the numbers are being drawn. Once all 20 numbers are drawn, some game information is shown to the player. They are able to see the amount of spots they matched, the specific numbers they matched, the amount they won in the current drawing, and their total amount of winnings. After, they can choose to move onto the next drawing. Once all the drawings are done, they can move onto the final screen. This screen shows the player their total amount of winnings, all of the spots they have matched, the total matches they made, and the total drawings they have played. They are then able to restart and play a new game.
 
-
-Link to video demonstration: [Watch here!](https://drive.google.com/file/d/1-1NHDe5Cfl6oU-0-0i4ubESgjXtGQyTv/view?usp=sharing) 
+### <ins>Demo Video
+[Watch here!](https://drive.google.com/file/d/1-1NHDe5Cfl6oU-0-0i4ubESgjXtGQyTv/view?usp=sharing) 
