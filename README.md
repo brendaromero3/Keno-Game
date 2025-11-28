@@ -16,4 +16,4 @@ Upon clicking the start button, the player is moved to the drawing screen. Here 
 the payouts for the amount of matches possible while the numbers are being drawn. Once all 20 numbers are drawn, some game information is shown to the player. They are able to see the amount of spots they matched, the specific numbers they matched, the amount they won in the current drawing, and their total amount of winnings. After, they can choose to move onto the next drawing. Once all the drawings are done, they can move onto the final screen. This screen shows the player their total amount of winnings, all of the spots they have matched, the total matches they made, and the total drawings they have played. They are then able to restart and play a new game.
 
 
-<!--Link to video demonstration: [Click Me!](https://en.wikipedia.org/wiki/Keno)  --> <!-- ADD LINK TO VIDEO -->
+Link to video demonstration: [Watch here!](https://drive.google.com/file/d/1-1NHDe5Cfl6oU-0-0i4ubESgjXtGQyTv/view?usp=sharing) 
